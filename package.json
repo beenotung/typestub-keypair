@@ -1,0 +1,28 @@
+{
+  "name": "typestub-keypair",
+  "version": "0.0.0",
+  "description": "typestub for keypair",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node test/test.ts"
+  },
+  "keywords": [
+    "Typescript",
+    "typestub",
+    "keypair",
+    "rsa"
+  ],
+  "author": "Beeno Tung",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "keypair": "^1.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.0.1"
+  }
+}
